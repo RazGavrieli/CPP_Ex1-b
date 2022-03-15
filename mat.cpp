@@ -102,7 +102,7 @@ namespace ariel {
 
         for (int i=0; i<h; i++) {
             for (int j=0; j<w; j++) {
-                if (arr[i][j]==1) {
+                if (arr.at(i).at(j)==1) {
                     res += a; }
                 else {
                     res += b; }
