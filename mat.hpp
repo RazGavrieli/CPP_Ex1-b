@@ -9,11 +9,13 @@
  * 
  */
 
+#include <vector>
+using namespace std;
 #include <string>
 #include <iostream>
 //#include "mat.cpp"
 
-void mat2arr(int w, int h, int **arr);
+vector<vector<int>> mat2arr(int w, int h, vector<vector<int>> arr);
 namespace ariel
 {
     std::string mat(int w, int h, char a, char b);

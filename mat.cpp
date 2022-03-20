@@ -110,5 +110,6 @@ namespace ariel {
             res += "\n";
         }
         return res;
+    }         
     }
-}
+
