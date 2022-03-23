@@ -10,12 +10,12 @@
  */
 
 #include <vector>
-using namespace std;
+
 #include <string>
 #include <iostream>
 //#include "mat.cpp"
 
-vector<vector<int>> mat2arr(int w, int h, vector<vector<int>> arr);
+std::vector<std::vector<int>> mat2arr(int w, int h, std::vector<std::vector<int>> arr);
 namespace ariel
 {
     std::string mat(int w, int h, char a, char b);
